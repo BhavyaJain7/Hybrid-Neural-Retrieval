@@ -1,0 +1,46 @@
+{
+  "k": 10,
+  "collection": "base",
+  "results": {
+    "BM25 (Sparse)": {
+      "mrr_at_k": 0.5507,
+      "avg_latency_ms": 0.3,
+      "p50_latency_ms": 0.3,
+      "p95_latency_ms": 0.5,
+      "mrr_per_sec": 1835.6667,
+      "queries_evaluated": 321
+    },
+    "Dense (Qdrant)": {
+      "mrr_at_k": 0.5705,
+      "avg_latency_ms": 10.4,
+      "p50_latency_ms": 10.4,
+      "p95_latency_ms": 13.1,
+      "mrr_per_sec": 54.8558,
+      "queries_evaluated": 321
+    },
+    "Hybrid RRF": {
+      "mrr_at_k": 0.624,
+      "avg_latency_ms": 11.9,
+      "p50_latency_ms": 11.9,
+      "p95_latency_ms": 15.7,
+      "mrr_per_sec": 52.437,
+      "queries_evaluated": 321
+    },
+    "Hybrid RRF + Reranker": {
+      "mrr_at_k": 0.6713,
+      "avg_latency_ms": 508.0,
+      "p50_latency_ms": 487.0,
+      "p95_latency_ms": 754.4,
+      "mrr_per_sec": 1.3215,
+      "queries_evaluated": 321
+    },
+    "Learned Fusion": {
+      "mrr_at_k": 0.5961,
+      "avg_latency_ms": 14.9,
+      "p50_latency_ms": 14.5,
+      "p95_latency_ms": 19.6,
+      "mrr_per_sec": 40.0067,
+      "queries_evaluated": 321
+    }
+  }
+}

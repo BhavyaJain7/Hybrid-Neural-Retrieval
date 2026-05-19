@@ -1,0 +1,160 @@
+{
+  "collection": "base",
+  "k": 5,
+  "queries_labeled": 321,
+  "overall": {
+    "BM25 (sparse)": {
+      "P@5": 0.296,
+      "Recall@5": 0.5461,
+      "MRR": 0.5457,
+      "nDCG@5": 0.572,
+      "queries_evaluated": 321,
+      "eval_latency_ms": 115.6
+    },
+    "Dense (Qdrant)": {
+      "P@5": 0.2991,
+      "Recall@5": 0.5617,
+      "MRR": 0.5617,
+      "nDCG@5": 0.5879,
+      "queries_evaluated": 321,
+      "eval_latency_ms": 3327.6
+    },
+    "Hybrid RRF": {
+      "P@5": 0.3097,
+      "Recall@5": 0.609,
+      "MRR": 0.6125,
+      "nDCG@5": 0.6379,
+      "queries_evaluated": 321,
+      "eval_latency_ms": 4219.0
+    },
+    "Hybrid RRF + Reranker": {
+      "P@5": 0.314,
+      "Recall@5": 0.6364,
+      "MRR": 0.6751,
+      "nDCG@5": 0.6919,
+      "queries_evaluated": 321,
+      "eval_latency_ms": 67819.8
+    },
+    "Learned Fusion": {
+      "P@5": 0.286,
+      "Recall@5": 0.572,
+      "MRR": 0.5957,
+      "nDCG@5": 0.6168,
+      "queries_evaluated": 321,
+      "eval_latency_ms": 4793.6
+    }
+  },
+  "per_type": {
+    "keyword": {
+      "BM25 (sparse)": {
+        "P@5": 0.3086,
+        "Recall@5": 0.7714,
+        "MRR": 0.7225,
+        "nDCG@5": 0.7564,
+        "queries_evaluated": 140
+      },
+      "Dense (Qdrant)": {
+        "P@5": 0.3029,
+        "Recall@5": 0.7429,
+        "MRR": 0.6854,
+        "nDCG@5": 0.721,
+        "queries_evaluated": 140
+      },
+      "Hybrid RRF": {
+        "P@5": 0.3171,
+        "Recall@5": 0.8143,
+        "MRR": 0.7969,
+        "nDCG@5": 0.8231,
+        "queries_evaluated": 140
+      },
+      "Hybrid RRF + Reranker": {
+        "P@5": 0.3243,
+        "Recall@5": 0.85,
+        "MRR": 0.8732,
+        "nDCG@5": 0.8893,
+        "queries_evaluated": 140
+      },
+      "Learned Fusion": {
+        "P@5": 0.3014,
+        "Recall@5": 0.7871,
+        "MRR": 0.7842,
+        "nDCG@5": 0.8082,
+        "queries_evaluated": 140
+      }
+    },
+    "semantic": {
+      "BM25 (sparse)": {
+        "P@5": 0.4571,
+        "Recall@5": 0.5929,
+        "MRR": 0.6833,
+        "nDCG@5": 0.7089,
+        "queries_evaluated": 84
+      },
+      "Dense (Qdrant)": {
+        "P@5": 0.469,
+        "Recall@5": 0.6524,
+        "MRR": 0.755,
+        "nDCG@5": 0.7779,
+        "queries_evaluated": 84
+      },
+      "Hybrid RRF": {
+        "P@5": 0.4881,
+        "Recall@5": 0.7262,
+        "MRR": 0.7812,
+        "nDCG@5": 0.8152,
+        "queries_evaluated": 84
+      },
+      "Hybrid RRF + Reranker": {
+        "P@5": 0.4857,
+        "Recall@5": 0.7357,
+        "MRR": 0.8639,
+        "nDCG@5": 0.8805,
+        "queries_evaluated": 84
+      },
+      "Learned Fusion": {
+        "P@5": 0.4262,
+        "Recall@5": 0.6095,
+        "MRR": 0.7351,
+        "nDCG@5": 0.7534,
+        "queries_evaluated": 84
+      }
+    },
+    "vague": {
+      "BM25 (sparse)": {
+        "P@5": 0.1381,
+        "Recall@5": 0.1804,
+        "MRR": 0.1715,
+        "nDCG@5": 0.1874,
+        "queries_evaluated": 97
+      },
+      "Dense (Qdrant)": {
+        "P@5": 0.1464,
+        "Recall@5": 0.2216,
+        "MRR": 0.2158,
+        "nDCG@5": 0.2311,
+        "queries_evaluated": 97
+      },
+      "Hybrid RRF": {
+        "P@5": 0.1443,
+        "Recall@5": 0.2113,
+        "MRR": 0.2003,
+        "nDCG@5": 0.217,
+        "queries_evaluated": 97
+      },
+      "Hybrid RRF + Reranker": {
+        "P@5": 0.1505,
+        "Recall@5": 0.2423,
+        "MRR": 0.2258,
+        "nDCG@5": 0.2438,
+        "queries_evaluated": 97
+      },
+      "Learned Fusion": {
+        "P@5": 0.1423,
+        "Recall@5": 0.2289,
+        "MRR": 0.2029,
+        "nDCG@5": 0.2223,
+        "queries_evaluated": 97
+      }
+    }
+  }
+}

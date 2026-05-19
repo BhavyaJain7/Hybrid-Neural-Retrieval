@@ -1,0 +1,53 @@
+{
+  "phase": 5,
+  "collection": "base",
+  "k": 5,
+  "web_trigger_threshold": 0.01,
+  "tavily_weight": 0.6,
+  "description": "Tavily web augmentation: lift on vague queries, no regression on keyword queries",
+  "vague_queries": {
+    "Hybrid RRF (local only)": {
+      "P@5": 0.0041,
+      "Recall@5": 0.0113,
+      "MRR": 0.0124,
+      "nDCG@5": 0.0143,
+      "queries_evaluated": 97,
+      "queries_skipped": 0,
+      "eval_latency_ms": 1282.8
+    },
+    "Hybrid RRF + Web (gated)": {
+      "P@5": 0.0041,
+      "Recall@5": 0.0113,
+      "MRR": 0.0124,
+      "nDCG@5": 0.0143,
+      "queries_evaluated": 97,
+      "queries_skipped": 0,
+      "eval_latency_ms": 1166.0
+    },
+    "ndcg_lift": 0.0,
+    "exit_criteria_met": true
+  },
+  "keyword_queries": {
+    "Hybrid RRF (local only)": {
+      "P@5": 0.0086,
+      "Recall@5": 0.0107,
+      "MRR": 0.0211,
+      "nDCG@5": 0.0238,
+      "queries_evaluated": 140,
+      "queries_skipped": 0,
+      "eval_latency_ms": 1517.7
+    },
+    "Hybrid RRF + Web (forced)": {
+      "P@5": 0.0086,
+      "Recall@5": 0.0107,
+      "MRR": 0.0211,
+      "nDCG@5": 0.0238,
+      "queries_evaluated": 140,
+      "queries_skipped": 0,
+      "web_fired_count": 140,
+      "eval_latency_ms": 253127.7
+    },
+    "ndcg_delta": 0.0,
+    "no_regression": true
+  }
+}

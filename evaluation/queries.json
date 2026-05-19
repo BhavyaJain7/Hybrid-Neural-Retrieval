@@ -1,0 +1,1607 @@
+[
+  {
+    "id": "q01",
+    "text": "What is an AI agent?",
+    "type": "semantic"
+  },
+  {
+    "id": "q02",
+    "text": "How do agents use tools?",
+    "type": "semantic"
+  },
+  {
+    "id": "q03",
+    "text": "What is the difference between a tool and a skill in agent systems?",
+    "type": "semantic"
+  },
+  {
+    "id": "q04",
+    "text": "How does an agent decide which tool to call?",
+    "type": "semantic"
+  },
+  {
+    "id": "q05",
+    "text": "Explain ReAct prompting in simple terms",
+    "type": "semantic"
+  },
+  {
+    "id": "q06",
+    "text": "How do you implement a planning loop in an agent?",
+    "type": "semantic"
+  },
+  {
+    "id": "q07",
+    "text": "What are the risks of autonomous agents?",
+    "type": "semantic"
+  },
+  {
+    "id": "q08",
+    "text": "What are the types of memory in agents?",
+    "type": "semantic"
+  },
+  {
+    "id": "q09",
+    "text": "What is a multi-agent system?",
+    "type": "semantic"
+  },
+  {
+    "id": "q10",
+    "text": "How do agents communicate with each other?",
+    "type": "semantic"
+  },
+  {
+    "id": "q11",
+    "text": "What is the role of an orchestrator in multi-agent setups?",
+    "type": "semantic"
+  },
+  {
+    "id": "q12",
+    "text": "How do you evaluate agent performance?",
+    "type": "semantic"
+  },
+  {
+    "id": "q13",
+    "text": "Why do agents fail or get stuck in loops?",
+    "type": "semantic"
+  },
+  {
+    "id": "q14",
+    "text": "How do you move an agent from prototype to production?",
+    "type": "semantic"
+  },
+  {
+    "id": "q15",
+    "text": "What are common production issues in AI agents?",
+    "type": "semantic"
+  },
+  {
+    "id": "q16",
+    "text": "How do you handle agent errors gracefully?",
+    "type": "semantic"
+  },
+  {
+    "id": "q17",
+    "text": "What monitoring strategies are used for agents?",
+    "type": "semantic"
+  },
+  {
+    "id": "q18",
+    "text": "How do you test an AI agent before deployment?",
+    "type": "semantic"
+  },
+  {
+    "id": "q19",
+    "text": "What is the difference between a chain and an agent?",
+    "type": "semantic"
+  },
+  {
+    "id": "q20",
+    "text": "How do you control costs in agent systems?",
+    "type": "semantic"
+  },
+  {
+    "id": "q21",
+    "text": "What problems are agents best suited for?",
+    "type": "semantic"
+  },
+  {
+    "id": "q22",
+    "text": "What are the limitations of current AI agents?",
+    "type": "semantic"
+  },
+  {
+    "id": "q23",
+    "text": "How do you ground an agent with factual data?",
+    "type": "semantic"
+  },
+  {
+    "id": "q24",
+    "text": "What is human-in-the-loop in agent workflows?",
+    "type": "semantic"
+  },
+  {
+    "id": "q25",
+    "text": "How does retrieval augmented generation work in agents?",
+    "type": "semantic"
+  },
+  {
+    "id": "q26",
+    "text": "How do you manage long context in agent tasks?",
+    "type": "semantic"
+  },
+  {
+    "id": "q27",
+    "text": "How do agents handle ambiguous user input?",
+    "type": "semantic"
+  },
+  {
+    "id": "q28",
+    "text": "What is tool use vs code execution in agents?",
+    "type": "semantic"
+  },
+  {
+    "id": "q29",
+    "text": "How do you prevent prompt injection in agents?",
+    "type": "semantic"
+  },
+  {
+    "id": "q30",
+    "text": "What makes an agent trustworthy?",
+    "type": "semantic"
+  },
+  {
+    "id": "q31",
+    "text": "BM25 formula k1 b explanation",
+    "type": "keyword"
+  },
+  {
+    "id": "q32",
+    "text": "RRF formula k value retrieval fusion",
+    "type": "keyword"
+  },
+  {
+    "id": "q33",
+    "text": "cross encoder ms marco MiniLM model name",
+    "type": "keyword"
+  },
+  {
+    "id": "q34",
+    "text": "ReAct prompting steps format example",
+    "type": "keyword"
+  },
+  {
+    "id": "q35",
+    "text": "agent loop pseudocode planning execution cycle",
+    "type": "keyword"
+  },
+  {
+    "id": "q36",
+    "text": "tool calling JSON schema function signature",
+    "type": "keyword"
+  },
+  {
+    "id": "q37",
+    "text": "vector database embedding storage retrieval pipeline",
+    "type": "keyword"
+  },
+  {
+    "id": "q38",
+    "text": "token usage cost optimization LLM inference",
+    "type": "keyword"
+  },
+  {
+    "id": "q39",
+    "text": "context window overflow truncation strategy",
+    "type": "keyword"
+  },
+  {
+    "id": "q40",
+    "text": "prompt injection adversarial input security mitigation",
+    "type": "keyword"
+  },
+  {
+    "id": "q41",
+    "text": "few shot prompting in context learning examples",
+    "type": "keyword"
+  },
+  {
+    "id": "q42",
+    "text": "agent evaluation metrics benchmark ndcg mrr precision",
+    "type": "keyword"
+  },
+  {
+    "id": "q43",
+    "text": "latency optimization inference batching caching",
+    "type": "keyword"
+  },
+  {
+    "id": "q44",
+    "text": "rag pipeline components retriever generator reranker",
+    "type": "keyword"
+  },
+  {
+    "id": "q45",
+    "text": "session persistence state management agent systems",
+    "type": "keyword"
+  },
+  {
+    "id": "q46",
+    "text": "agent memory short term long term episodic semantic",
+    "type": "keyword"
+  },
+  {
+    "id": "q47",
+    "text": "sandboxed code execution security agent systems",
+    "type": "keyword"
+  },
+  {
+    "id": "q48",
+    "text": "reinforcement learning from human feedback agent training",
+    "type": "keyword"
+  },
+  {
+    "id": "q49",
+    "text": "system prompt instruction tuning agent behavior",
+    "type": "keyword"
+  },
+  {
+    "id": "q50",
+    "text": "hybrid retrieval dense sparse fusion ranking",
+    "type": "keyword"
+  },
+  {
+    "id": "q51",
+    "text": "agent not working properly why",
+    "type": "vague"
+  },
+  {
+    "id": "q52",
+    "text": "it keeps looping again and again",
+    "type": "vague"
+  },
+  {
+    "id": "q53",
+    "text": "tool not getting called fix",
+    "type": "vague"
+  },
+  {
+    "id": "q54",
+    "text": "answers are wrong sometimes why",
+    "type": "vague"
+  },
+  {
+    "id": "q55",
+    "text": "how to make this thing better",
+    "type": "vague"
+  },
+  {
+    "id": "q56",
+    "text": "it is slow in production what to do",
+    "type": "vague"
+  },
+  {
+    "id": "q57",
+    "text": "agent gets confused mid task",
+    "type": "vague"
+  },
+  {
+    "id": "q58",
+    "text": "not giving consistent answers",
+    "type": "vague"
+  },
+  {
+    "id": "q59",
+    "text": "how do I know it's working properly",
+    "type": "vague"
+  },
+  {
+    "id": "q60",
+    "text": "this breaks randomly sometimes",
+    "type": "vague"
+  },
+  {
+    "id": "q_c78acebff5",
+    "text": "Backend Development with NoSQL Databases",
+    "type": "keyword"
+  },
+  {
+    "id": "q_2d044c9de1",
+    "text": "Cloud Computing coding skills.",
+    "type": "keyword"
+  },
+  {
+    "id": "q_8fe6fc8ffb",
+    "text": "What programming skills are considered essential for IT service-based companies to look for in job candidates?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_788c7700a8",
+    "text": "C computer networks operating systems proficiency.",
+    "type": "keyword"
+  },
+  {
+    "id": "q_7593e06dc6",
+    "text": "C++ Python expectations of product companies.",
+    "type": "keyword"
+  },
+  {
+    "id": "q_5f2c78aad4",
+    "text": "What programming language is most commonly preferred by data-driven firms for their employees?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_3728210e9b",
+    "text": "What skills or knowledge areas are expected of students graduating in computer-related fields?",
+    "type": "vague"
+  },
+  {
+    "id": "q_18c934a7f0",
+    "text": "Customizing information preservation techniques",
+    "type": "keyword"
+  },
+  {
+    "id": "q_e3da68c21f",
+    "text": "Container managed by developer security risks",
+    "type": "keyword"
+  },
+  {
+    "id": "q_01c291878a",
+    "text": "Information Memory State Evolution Over Time",
+    "type": "keyword"
+  },
+  {
+    "id": "q_9e42a99b14",
+    "text": "Operationalize Observability Evaluation Framework",
+    "type": "keyword"
+  },
+  {
+    "id": "q_9380dfd205",
+    "text": "CLI adk eval pytest regression testing",
+    "type": "keyword"
+  },
+  {
+    "id": "q_a2cfc409b3",
+    "text": "Model Context Protocol Specification",
+    "type": "keyword"
+  },
+  {
+    "id": "q_65f5f5eef8",
+    "text": "Pay-per-use agent protocols",
+    "type": "keyword"
+  },
+  {
+    "id": "q_a9ba0c024c",
+    "text": "Agent 2 Agent communication protocol JSON file",
+    "type": "keyword"
+  },
+  {
+    "id": "q_feb361c262",
+    "text": "Find coffee shops in Millbrae with 4-star rating",
+    "type": "keyword"
+  },
+  {
+    "id": "q_4fd29dc9e7",
+    "text": "Proactive retrieval in ADK PreloadMemoryTool",
+    "type": "keyword"
+  },
+  {
+    "id": "q_38b58cac6a",
+    "text": "LLM tool encapsulation best practices",
+    "type": "keyword"
+  },
+  {
+    "id": "q_9bf02b93d0",
+    "text": "Iterative Refinement Design Pattern Architecture",
+    "type": "keyword"
+  },
+  {
+    "id": "q_9de9859f6c",
+    "text": "Agent action metrics report card",
+    "type": "keyword"
+  },
+  {
+    "id": "q_4bb8c98a12",
+    "text": "Operationalizing AI Agents with AgentOps",
+    "type": "keyword"
+  },
+  {
+    "id": "q_4355df558d",
+    "text": "Human Interface Tool Learning",
+    "type": "keyword"
+  },
+  {
+    "id": "q_7bb2343769",
+    "text": "Google Cloud agent Terraform deployment",
+    "type": "keyword"
+  },
+  {
+    "id": "q_e41e8be610",
+    "text": "LLM-based exfiltration prevention",
+    "type": "keyword"
+  },
+  {
+    "id": "q_e9325bf1da",
+    "text": "roll a 6 sided dice",
+    "type": "keyword"
+  },
+  {
+    "id": "q_dd6da256c0",
+    "text": "Agent behavior evaluation report",
+    "type": "keyword"
+  },
+  {
+    "id": "q_34978aaadb",
+    "text": "Conversation session temporary workbench",
+    "type": "keyword"
+  },
+  {
+    "id": "q_69e4ec4ff5",
+    "text": "Continuous Improvement in AI Algorithm Evolution",
+    "type": "keyword"
+  },
+  {
+    "id": "q_e0109f8229",
+    "text": "Contextual Memory Consolidation Techniques",
+    "type": "keyword"
+  },
+  {
+    "id": "q_a5901f8a31",
+    "text": "natural language chunk retrieval",
+    "type": "keyword"
+  },
+  {
+    "id": "q_e4411bba9a",
+    "text": "AI Agent Core Reasoning System",
+    "type": "keyword"
+  },
+  {
+    "id": "q_4385d17e86",
+    "text": "Procedural memory organization patterns.",
+    "type": "keyword"
+  },
+  {
+    "id": "q_8eec2215fa",
+    "text": "Agent tracing end-to-end causal relationship",
+    "type": "keyword"
+  },
+  {
+    "id": "q_87a3e75164",
+    "text": "LLM-as-a-Judge Paradigm evaluation metrics",
+    "type": "keyword"
+  },
+  {
+    "id": "q_7a93ea3064",
+    "text": "Multi-Agent System Design Pattern Optimization",
+    "type": "keyword"
+  },
+  {
+    "id": "q_46a3698602",
+    "text": "Agent Development Kit implementation methods",
+    "type": "keyword"
+  },
+  {
+    "id": "q_2dce2ec47c",
+    "text": "Agent2Agent protocol MCP integration",
+    "type": "keyword"
+  },
+  {
+    "id": "q_54d65810d7",
+    "text": "Memory generation algorithm stages",
+    "type": "keyword"
+  },
+  {
+    "id": "q_0514cdf36c",
+    "text": "Model Context Protocol architecture",
+    "type": "keyword"
+  },
+  {
+    "id": "q_86b7433d18",
+    "text": "Evaluate database query execution plan trace.",
+    "type": "keyword"
+  },
+  {
+    "id": "q_9436f9b7c7",
+    "text": "Passive LLM evaluation metrics",
+    "type": "keyword"
+  },
+  {
+    "id": "q_94812ba0eb",
+    "text": "Model Context Protocol server",
+    "type": "keyword"
+  },
+  {
+    "id": "q_47ecc3414a",
+    "text": "Building Trustworthy Non Deterministic AI",
+    "type": "keyword"
+  },
+  {
+    "id": "q_2495d36574",
+    "text": "memory manager proactive pruning",
+    "type": "keyword"
+  },
+  {
+    "id": "q_947da4661b",
+    "text": "In-context learning procedural memory fine-tuning",
+    "type": "keyword"
+  },
+  {
+    "id": "q_6219f5230f",
+    "text": "Real-time autonomous agent stability management",
+    "type": "keyword"
+  },
+  {
+    "id": "q_d7e9d09af3",
+    "text": "LM selection in agent architecture",
+    "type": "keyword"
+  },
+  {
+    "id": "q_fa96b05740",
+    "text": "JSON-RPC error reporting mechanisms",
+    "type": "keyword"
+  },
+  {
+    "id": "q_646f5faaed",
+    "text": "Integrating identities, policies and security controls.",
+    "type": "keyword"
+  },
+  {
+    "id": "q_50e2d284cc",
+    "text": "LLM Gemini Content List Structure",
+    "type": "keyword"
+  },
+  {
+    "id": "q_20adb82719",
+    "text": "Secret Manager gradual rollout strategy",
+    "type": "keyword"
+  },
+  {
+    "id": "q_5561836b5b",
+    "text": "Prompt injection prevention safeguards.",
+    "type": "keyword"
+  },
+  {
+    "id": "q_91c8395471",
+    "text": "Agent Engine Sessions3 implementation",
+    "type": "keyword"
+  },
+  {
+    "id": "q_80ff495f52",
+    "text": "LLM Non-deterministic Reasoning Trajectory",
+    "type": "keyword"
+  },
+  {
+    "id": "q_3a92a004c8",
+    "text": "road network manual inspection methods",
+    "type": "keyword"
+  },
+  {
+    "id": "q_6f8e9db044",
+    "text": "ASP production deployment safeguard template.",
+    "type": "keyword"
+  },
+  {
+    "id": "q_09eb779c33",
+    "text": "Identity management ambiguity protocol issues",
+    "type": "keyword"
+  },
+  {
+    "id": "q_4207908937",
+    "text": "Agent thinking effectively metrics analysis",
+    "type": "keyword"
+  },
+  {
+    "id": "q_2b2132efb9",
+    "text": "Smarter agent architecture improvements.",
+    "type": "keyword"
+  },
+  {
+    "id": "q_aab4850aae",
+    "text": "Anthropic model context protocol client features",
+    "type": "keyword"
+  },
+  {
+    "id": "q_3c5836d4b9",
+    "text": "Retrieval-Augmented Generation agent architecture",
+    "type": "keyword"
+  },
+  {
+    "id": "q_6d76104cca",
+    "text": "Vertex AI Agent Engine deployment options",
+    "type": "keyword"
+  },
+  {
+    "id": "q_f1421b4ab5",
+    "text": "Google Alloydb specification",
+    "type": "keyword"
+  },
+  {
+    "id": "q_a0e749f566",
+    "text": "Low-latency conversation container design",
+    "type": "keyword"
+  },
+  {
+    "id": "q_27c0280480",
+    "text": "ADK EventsCompactionConfig configuration example",
+    "type": "keyword"
+  },
+  {
+    "id": "q_9a77d4efe7",
+    "text": "Agent Observability Framework",
+    "type": "keyword"
+  },
+  {
+    "id": "q_a8404811d1",
+    "text": "Implicit memory creation in conversation.",
+    "type": "keyword"
+  },
+  {
+    "id": "q_55d98d1741",
+    "text": "Centralized governance registry enforcement.",
+    "type": "keyword"
+  },
+  {
+    "id": "q_74bbab5707",
+    "text": "Avoid Duplicate Instructions in Model Training",
+    "type": "keyword"
+  },
+  {
+    "id": "q_d969aa1f2e",
+    "text": "Autonomous system evaluation checklist.",
+    "type": "keyword"
+  },
+  {
+    "id": "q_40bb1ed179",
+    "text": "Malicious Tool Definitions Consumed Contents",
+    "type": "keyword"
+  },
+  {
+    "id": "q_01f0595298",
+    "text": "Managed Centralized Platforms security challenges",
+    "type": "keyword"
+  },
+  {
+    "id": "q_f12844bce0",
+    "text": "Agentic system architecture Orchestration Layer",
+    "type": "keyword"
+  },
+  {
+    "id": "q_ae850f2bbf",
+    "text": "Memory metadata fields for owner identification",
+    "type": "keyword"
+  },
+  {
+    "id": "q_608a5b2ed9",
+    "text": "Human-in-the-Loop Reinforcement Learning Survey",
+    "type": "keyword"
+  },
+  {
+    "id": "q_5e10f3d318",
+    "text": "Cloud Load Balancing for version management",
+    "type": "keyword"
+  },
+  {
+    "id": "q_4cd1e09bcd",
+    "text": "LLM query rewriting techniques",
+    "type": "keyword"
+  },
+  {
+    "id": "q_03e8e0afd7",
+    "text": "Pairwise Comparison Agent Evaluation Methods",
+    "type": "keyword"
+  },
+  {
+    "id": "q_eca9eedd3d",
+    "text": "MLOps Team Continuous Deployment staging environment",
+    "type": "keyword"
+  },
+  {
+    "id": "q_ba0905b88b",
+    "text": "Automatic Road Damage Detection System",
+    "type": "keyword"
+  },
+  {
+    "id": "q_ad041c43fa",
+    "text": "Meta reasoning in project management.",
+    "type": "keyword"
+  },
+  {
+    "id": "q_396dc60d67",
+    "text": "advanced foundation model capabilities limitations",
+    "type": "keyword"
+  },
+  {
+    "id": "q_346e09cbf7",
+    "text": "CI/CD Pipeline Automated Deployment",
+    "type": "keyword"
+  },
+  {
+    "id": "q_344ff71920",
+    "text": "Enterprise API parameter usage",
+    "type": "keyword"
+  },
+  {
+    "id": "q_730abc8927",
+    "text": "least privilege principle application security",
+    "type": "keyword"
+  },
+  {
+    "id": "q_c14315e5b3",
+    "text": "LLM System Instruction Addition",
+    "type": "keyword"
+  },
+  {
+    "id": "q_6902f4e8f4",
+    "text": "Conversation history compaction strategies",
+    "type": "keyword"
+  },
+  {
+    "id": "q_3f77cf0ea2",
+    "text": "Delegated authority authentication methods.",
+    "type": "keyword"
+  },
+  {
+    "id": "q_1712a8eb39",
+    "text": "MCP server creates new branch with secret code",
+    "type": "keyword"
+  },
+  {
+    "id": "q_2251916ddb",
+    "text": "Language-only model architecture",
+    "type": "keyword"
+  },
+  {
+    "id": "q_c06d08d792",
+    "text": "User feedback event-driven pipeline implementation.",
+    "type": "keyword"
+  },
+  {
+    "id": "q_55d3129c6f",
+    "text": "set room lights brightness color temperature",
+    "type": "keyword"
+  },
+  {
+    "id": "q_e26eef6ec9",
+    "text": "Conflict resolution multi data source strategy",
+    "type": "keyword"
+  },
+  {
+    "id": "q_a26e95caa5",
+    "text": "RAG engine memory context management.",
+    "type": "keyword"
+  },
+  {
+    "id": "q_05932f3b1b",
+    "text": "Data isolation in corporate archive management",
+    "type": "keyword"
+  },
+  {
+    "id": "q_6b6223c896",
+    "text": "MCP server access restriction",
+    "type": "keyword"
+  },
+  {
+    "id": "q_1d97b22d27",
+    "text": "Autonomous Agent Architectures",
+    "type": "keyword"
+  },
+  {
+    "id": "q_1709119c9c",
+    "text": "NullPointerException in software systems",
+    "type": "keyword"
+  },
+  {
+    "id": "q_9afdfafb6d",
+    "text": "Agent developer autonomous actor guidance",
+    "type": "keyword"
+  },
+  {
+    "id": "q_f2f20a2a8b",
+    "text": "Agent governance control plane architecture",
+    "type": "keyword"
+  },
+  {
+    "id": "q_3cd279cb18",
+    "text": "Root cause analysis model retraining",
+    "type": "keyword"
+  },
+  {
+    "id": "q_a5fd7f0417",
+    "text": "Async Compaction Strategies Memory Persistence",
+    "type": "keyword"
+  },
+  {
+    "id": "q_e45db6ca6d",
+    "text": "GCP Model Armor37 output sanitization.",
+    "type": "keyword"
+  },
+  {
+    "id": "q_8df7ced893",
+    "text": "API Gateway security alert disconnect",
+    "type": "keyword"
+  },
+  {
+    "id": "q_b07e495cf2",
+    "text": "Custom topic extraction memory management",
+    "type": "keyword"
+  },
+  {
+    "id": "q_d323ff5c36",
+    "text": "Agent architectures semantic meaning reward function",
+    "type": "keyword"
+  },
+  {
+    "id": "q_69efdf8cb9",
+    "text": "Agents as tools in organizational systems",
+    "type": "keyword"
+  },
+  {
+    "id": "q_a6fb0f6168",
+    "text": "LM context optimization techniques",
+    "type": "keyword"
+  },
+  {
+    "id": "q_cdf195a582",
+    "text": "model foundation safety settings",
+    "type": "keyword"
+  },
+  {
+    "id": "q_987c484071",
+    "text": "Agent registry formats like AgentCards.",
+    "type": "keyword"
+  },
+  {
+    "id": "q_d768ec783e",
+    "text": "Precision Recall Score Curve",
+    "type": "keyword"
+  },
+  {
+    "id": "q_7b7c96ecc6",
+    "text": "LLM system prompt dynamic construction constraints",
+    "type": "keyword"
+  },
+  {
+    "id": "q_b0a9bab432",
+    "text": "Pre-Merge Integration Pipeline",
+    "type": "keyword"
+  },
+  {
+    "id": "q_7bfdd11e1e",
+    "text": "Rapid threat containment circuit breaker feature flag",
+    "type": "keyword"
+  },
+  {
+    "id": "q_ffd2bbc577",
+    "text": "Agent Gym tribal knowledge problem solving",
+    "type": "keyword"
+  },
+  {
+    "id": "q_ab61617d71",
+    "text": "Agent Framework memory interaction tools.",
+    "type": "keyword"
+  },
+  {
+    "id": "q_dd21e4474f",
+    "text": "MCP client-side Elicitation capability",
+    "type": "keyword"
+  },
+  {
+    "id": "q_97c767255b",
+    "text": "JSON output decision maker",
+    "type": "keyword"
+  },
+  {
+    "id": "q_57dca1226a",
+    "text": "MCP server-side capabilities resources",
+    "type": "keyword"
+  },
+  {
+    "id": "q_a92f222c1a",
+    "text": "Model Context Protocol MCP limitations",
+    "type": "keyword"
+  },
+  {
+    "id": "q_0dd0965d79",
+    "text": "Enterprise authorization and authentication requirements",
+    "type": "keyword"
+  },
+  {
+    "id": "q_e1ba668702",
+    "text": "Metrics driven development ROI calculation.",
+    "type": "keyword"
+  },
+  {
+    "id": "q_f9e4fe9b42",
+    "text": "Autonomous agent transaction authorization issues",
+    "type": "keyword"
+  },
+  {
+    "id": "q_f8cfcd571c",
+    "text": "What types of organization patterns are typically used in memory systems?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_4f1ba8bc47",
+    "text": "What is one way the agent can trigger the developer to store meaningful information?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_9b8e167d13",
+    "text": "What study published by Google Research in 2025 focuses on secure AI agents?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_26a377fe0b",
+    "text": "What types of data are stored in a Session's state for the purpose of ongoing conversation?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_599f9452fa",
+    "text": "What should be the primary focus in evaluating a project's performance?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_cb90c16aaf",
+    "text": "What specific factors should an agent evaluator consider when judging the quality of an agent's behavior?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_3a21d87ad1",
+    "text": "What can cause an agent using Retrieval-Augmented Generation to produce incorrect results?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_0d0573ac53",
+    "text": "Can LangGraph-based agents directly read conversation records stored by ADK-based agents?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_1c306f2087",
+    "text": "What are the primary duties of a server in an MCP environment?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_978b867f06",
+    "text": "What kind of security risks could arise if proper validation and authentication are not implemented in an AI agent?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_7ce4ddc30b",
+    "text": "What is one example of a security mechanism employed in the outermost layer of the model's architecture?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_31ffee6e10",
+    "text": "What information should be included in the \"inputSchema\" field of a tool definition according to the JSON schema?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_9347640b98",
+    "text": "What type of protocol enables direct messaging between two agents in this context?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_793ce8f9af",
+    "text": "What advantage does a modular system design offer in terms of system maintenance?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_1e6bd1bbc3",
+    "text": "What is the name of the framework introduced by Deepak Nathani and his team in 2025?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_64e2afe83a",
+    "text": "What are the primary characteristics of an agent's memory?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_93d819977c",
+    "text": "What kind of specialized knowledge or expertise is typically required for evaluating the accuracy of certain types of intelligent agents?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_e504b5af7f",
+    "text": "What strategy does Context Engineering use to manage the amount of historical information and preserve critical details?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_3a573d7534",
+    "text": "How does an agent application access information from a memory store in this system?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_a8dc7d15d3",
+    "text": "What role do developers play in guiding the behavior of an autonomous entity?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_6a37bbd6f5",
+    "text": "What process ensures that changes to the system are deployed safely to production?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_247c3c368d",
+    "text": "What port is the agent being served on?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_f8b9f0b5ef",
+    "text": "What steps can be taken to prevent certain types of errors from recurring in a system?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_426cd89de6",
+    "text": "What is the specific error code used in the JSON-RPC protocol to indicate a syntax error?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_bdf42f80a6",
+    "text": "What is the current status of the order being reported?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_fb2a4ef5fb",
+    "text": "What mechanism should the system employ when an LLM call fails?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_ba5b345e33",
+    "text": "What is a key step in reducing the risk of a data breach when handling sensitive user information?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_e6ee5e1d4e",
+    "text": "What context information is provided to the set_light_values function in this example?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_b559d0f025",
+    "text": "What is the primary drawback of generating memories frequently in the context of Context Engineering?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_146a572acb",
+    "text": "What type of interface does the A2UI protocol use to generate user interfaces?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_fb3346e3ca",
+    "text": "What role does the memory manager play in the context of an agent's logic and infrastructure?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_efa92fd180",
+    "text": "What types of complex problems has AlphaEvolve successfully helped solve through its evolutionary approach?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_40181f4e7a",
+    "text": "What are the primary components that make up a modern tracing system?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_ed44044058",
+    "text": "What percentage of users successfully complete bookings with a travel agent?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_ee0caf6202",
+    "text": "What percentage of reported road damage is actually accurately detected by the model?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_b4ca2602c5",
+    "text": "What is the publication year of the paper titled \"Agents\" authored by Julia Wiesinger and Patrick Marlow?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_12ee5712d9",
+    "text": "What process occurs in the background while the agent completes execution?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_a542be7054",
+    "text": "What type of process should memory generation be in an adaptive assistant?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_5378f85ede",
+    "text": "How does the customer support agent's memory interact with the larger context of its interactions with Acme Corp customers?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_b41b17cd9a",
+    "text": "What steps are involved in the iterative process for enhancing the memory system?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_6bc966b909",
+    "text": "Under what conditions should an output be considered potentially compromised by user-provided data?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_ef05d46425",
+    "text": "What types of personal information can be accessed through a user's memories?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_44803214d9",
+    "text": "How do agents handle their access to different tools in a system that frequently changes its behavior?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_183d829a72",
+    "text": "What is the primary function of the user_advice_agent?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_e1c53b4dfd",
+    "text": "What type of media is stored directly in a memory by an advanced memory manager?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_327b8b11c9",
+    "text": "What types of data influence the agent's ability to reason and make decisions?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_8b15a1eb5e",
+    "text": "What happens to an invalidated memory in the context engineering process?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_3879b391f2",
+    "text": "What is the main challenge that arises when organizations scale their use of multiple specialized agents?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_738b7340ef",
+    "text": "What is the primary goal of the pre-production phase in Evaluation-Gated Deployment?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_edc6cc5514",
+    "text": "How does Context Engineering handle information from conversations that are longer than the model's token limit?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_acc5560e74",
+    "text": "How do intelligent agents typically interact with their internal tools and resources?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_71386f3dc4",
+    "text": "What type of protocol is recommended for remote client-server communication?",
+    "type": "semantic"
+  },
+  {
+    "id": "q_39bb66e9de",
+    "text": "What kinds of problems can occur when a system is trained to make decisions based on data?",
+    "type": "vague"
+  },
+  {
+    "id": "q_85009196b0",
+    "text": "What are the key considerations when developing systems that can perform complex tasks?",
+    "type": "vague"
+  },
+  {
+    "id": "q_4e616d159f",
+    "text": "What is the purpose and scope of this document?",
+    "type": "vague"
+  },
+  {
+    "id": "q_94b3bc7829",
+    "text": "What are some characteristics of a well-designed system that allows it to function effectively in unpredictable situations?",
+    "type": "vague"
+  },
+  {
+    "id": "q_d463d15370",
+    "text": "What are some key factors to consider when moving an advanced technology into a large-scale, real-world environment?",
+    "type": "vague"
+  },
+  {
+    "id": "q_d1969d19e1",
+    "text": "What does it mean for an agent to be effective in remembering and using information?",
+    "type": "vague"
+  },
+  {
+    "id": "q_cb27f5a51d",
+    "text": "What is the general process of an agent as it responds to an incoming request?",
+    "type": "vague"
+  },
+  {
+    "id": "q_bf7ff3b00d",
+    "text": "What are the key challenges that must be considered when building a system that meets business needs?",
+    "type": "vague"
+  },
+  {
+    "id": "q_aabab027ae",
+    "text": "How do different sources of information contribute to the formation and development of individual memories?",
+    "type": "vague"
+  },
+  {
+    "id": "q_b320bf3e99",
+    "text": "What are some common issues that can arise when relying on artificial intelligence for decision-making?",
+    "type": "vague"
+  },
+  {
+    "id": "q_3a73f0febe",
+    "text": "How do certain individuals and teams work together to resolve complex problems?",
+    "type": "vague"
+  },
+  {
+    "id": "q_85b37c402d",
+    "text": "What factors contribute to the successful collaboration of different groups within an organization?",
+    "type": "vague"
+  },
+  {
+    "id": "q_45aa3dd1c1",
+    "text": "What information is often shared among users in a particular system?",
+    "type": "vague"
+  },
+  {
+    "id": "q_89617d2724",
+    "text": "What are the key factors that need to be considered when using tools in complex systems?",
+    "type": "vague"
+  },
+  {
+    "id": "q_cfb2e06198",
+    "text": "What can happen when there's too much information to consider at any given time?",
+    "type": "vague"
+  },
+  {
+    "id": "q_5034d1331c",
+    "text": "What kinds of technologies are being developed or utilized by Google in the field of artificial intelligence?",
+    "type": "vague"
+  },
+  {
+    "id": "q_2d8999803f",
+    "text": "What kinds of things can be used to make a system more capable or efficient in its interactions with the world?",
+    "type": "vague"
+  },
+  {
+    "id": "q_8950743cbe",
+    "text": "What challenges arise when maintaining the performance of systems over time?",
+    "type": "vague"
+  },
+  {
+    "id": "q_61e278a4f2",
+    "text": "What steps can be taken to influence the output of a complex system?",
+    "type": "vague"
+  },
+  {
+    "id": "q_e04a6deb70",
+    "text": "What factors contribute to accurately assessing something based on certain criteria?",
+    "type": "vague"
+  },
+  {
+    "id": "q_54964b0f87",
+    "text": "What are some key differences between how two different systems interact with the people they serve?",
+    "type": "vague"
+  },
+  {
+    "id": "q_35e08955b5",
+    "text": "What are some key factors to consider when evaluating the performance of an interactive system?",
+    "type": "vague"
+  },
+  {
+    "id": "q_8dbdf8eb04",
+    "text": "What happens when raw data is used to create something useful?",
+    "type": "vague"
+  },
+  {
+    "id": "q_630cd8b72d",
+    "text": "What steps are taken to prevent potentially sensitive or damaging information from being shared with users?",
+    "type": "vague"
+  },
+  {
+    "id": "q_4ebea646ce",
+    "text": "What steps can be taken to understand and resolve a problem that's arisen during a process?",
+    "type": "vague"
+  },
+  {
+    "id": "q_70c4d27b42",
+    "text": "How do certain components influence the decision-making process in this system?",
+    "type": "vague"
+  },
+  {
+    "id": "q_de00af310a",
+    "text": "What are the essential steps to design an effective data access system?",
+    "type": "vague"
+  },
+  {
+    "id": "q_246bebb33f",
+    "text": "What are some key aspects of a customer's overall satisfaction with a specific establishment?",
+    "type": "vague"
+  },
+  {
+    "id": "q_8af86aaad2",
+    "text": "What are the potential benefits and drawbacks of delegating tasks to a remote system?",
+    "type": "vague"
+  },
+  {
+    "id": "q_15e209846e",
+    "text": "What are some potential ways to create a more interconnected system for various tools and capabilities?",
+    "type": "vague"
+  },
+  {
+    "id": "q_8e7899437d",
+    "text": "What kinds of interactions should we expect with external elements when using these tools?",
+    "type": "vague"
+  },
+  {
+    "id": "q_fdbbd66239",
+    "text": "What key factors influence the selection of information from a vast database?",
+    "type": "vague"
+  },
+  {
+    "id": "q_5e56359e2a",
+    "text": "How do organizations approach problems that require multiple skills and expertise to solve effectively?",
+    "type": "vague"
+  },
+  {
+    "id": "q_be5bd22f05",
+    "text": "What are some potential risks associated with giving a system the ability to make its own choices?",
+    "type": "vague"
+  },
+  {
+    "id": "q_676887fd01",
+    "text": "What steps are typically taken to resolve a reported issue with a system?",
+    "type": "vague"
+  },
+  {
+    "id": "q_8f2a0e9148",
+    "text": "What is the relationship between how something is built and its ability to be evaluated effectively?",
+    "type": "vague"
+  },
+  {
+    "id": "q_e3cd0fa52c",
+    "text": "What are the main functions or tasks that a particular program or system is designed to perform?",
+    "type": "vague"
+  },
+  {
+    "id": "q_656bfca07d",
+    "text": "What are the key steps involved in taking an experimental AI system and making it a reliable part of a larger organization?",
+    "type": "vague"
+  },
+  {
+    "id": "q_3124033419",
+    "text": "What are some potential applications and implications of advancements in artificial intelligence for various professional fields.",
+    "type": "vague"
+  },
+  {
+    "id": "q_dfe3ba7c5b",
+    "text": "What are some challenges in determining the effectiveness of a system for making subjective judgments about the quality of certain types of output?",
+    "type": "vague"
+  },
+  {
+    "id": "q_b926d11c9f",
+    "text": "What happened in the time immediately following a question being asked?",
+    "type": "vague"
+  },
+  {
+    "id": "q_12284d5c8b",
+    "text": "What steps does an entity take when starting a new task?",
+    "type": "vague"
+  },
+  {
+    "id": "q_a7648f6a4a",
+    "text": "How do people typically decide what information to access when they need it?",
+    "type": "vague"
+  },
+  {
+    "id": "q_3c2845d631",
+    "text": "What can be learned from the interactions between customers and a company's automated support system?",
+    "type": "vague"
+  },
+  {
+    "id": "q_a2cb3ed093",
+    "text": "What do you need to know in order to make an informed assessment of how well something is working?",
+    "type": "vague"
+  },
+  {
+    "id": "q_3d72969c13",
+    "text": "What are some potential issues that can arise when adding information to a conversation that wasn't actually said?",
+    "type": "vague"
+  },
+  {
+    "id": "q_bcdcc7a7f4",
+    "text": "What steps do people typically go through when preparing their system for everyday use?",
+    "type": "vague"
+  },
+  {
+    "id": "q_751bddb18e",
+    "text": "What limitations do automated evaluation methods have when assessing the quality of generated content?",
+    "type": "vague"
+  },
+  {
+    "id": "q_b3e563f6b0",
+    "text": "What kind of information exchange is crucial for effective collaboration between different individuals or groups working together?",
+    "type": "vague"
+  },
+  {
+    "id": "q_76cc380c22",
+    "text": "What are some common ways to overcome initial difficulties in personalizing interactions with users?",
+    "type": "vague"
+  },
+  {
+    "id": "q_6f5a74898a",
+    "text": "How do people and systems interact and retain information in a complex conversation?",
+    "type": "vague"
+  },
+  {
+    "id": "q_bd9a27a566",
+    "text": "What are the key elements that contribute to creating a self-sustaining cycle of improvement?",
+    "type": "vague"
+  },
+  {
+    "id": "q_8dd85fa7b5",
+    "text": "What steps are involved in making use of information that has been learned from past experiences?",
+    "type": "vague"
+  },
+  {
+    "id": "q_d0d298cd27",
+    "text": "What challenges arise when creating complex systems that involve multiple collaborating components?",
+    "type": "vague"
+  },
+  {
+    "id": "q_e631b8caf4",
+    "text": "What happens when new information is added to a collection of past experiences?",
+    "type": "vague"
+  },
+  {
+    "id": "q_b996373209",
+    "text": "What general approach should be taken to ensure secure interactions between different systems and users?",
+    "type": "vague"
+  },
+  {
+    "id": "q_67adc1d82b",
+    "text": "What is the common goal behind the structure of a particular system used in communication between clients and servers?",
+    "type": "vague"
+  },
+  {
+    "id": "q_de95cd8682",
+    "text": "How does this system handle tasks that need to be processed over time?",
+    "type": "vague"
+  },
+  {
+    "id": "q_5f5521b12c",
+    "text": "What are some common challenges that arise when trying to combine old knowledge with new information?",
+    "type": "vague"
+  },
+  {
+    "id": "q_a629c71a01",
+    "text": "What drives the decision to establish a centralized hub of information for managing relationships and interactions within an organization?",
+    "type": "vague"
+  },
+  {
+    "id": "q_925f02a0db",
+    "text": "What potential impact might certain capabilities have on the adoption of a particular system in the future?",
+    "type": "vague"
+  },
+  {
+    "id": "q_75fc99173e",
+    "text": "What are the key factors to consider when assessing the performance of an automated system?",
+    "type": "vague"
+  },
+  {
+    "id": "q_199d98086c",
+    "text": "What can be done to ensure a good user experience when dealing with a large amount of data from past interactions?",
+    "type": "vague"
+  },
+  {
+    "id": "q_a0cb7aea76",
+    "text": "What are the essential components that enable different parts of a system to work together effectively?",
+    "type": "vague"
+  },
+  {
+    "id": "q_8bd56b4ffa",
+    "text": "What challenges might emerge as businesses try to implement a new technology in a complex organizational environment?",
+    "type": "vague"
+  },
+  {
+    "id": "q_b4358c42e8",
+    "text": "What are the key characteristics of a highly effective system designed to accomplish a specific task?",
+    "type": "vague"
+  },
+  {
+    "id": "q_204e57e930",
+    "text": "What key factors can lead to significant changes in how a company develops and releases its products?",
+    "type": "vague"
+  },
+  {
+    "id": "q_af7adc50b8",
+    "text": "What are some potential risks associated with the widespread use of a particular technology protocol?",
+    "type": "vague"
+  },
+  {
+    "id": "q_2b5e6ff830",
+    "text": "What key factors should be considered when evaluating an AI system's overall effectiveness?",
+    "type": "vague"
+  },
+  {
+    "id": "q_87614c4eab",
+    "text": "How does an automated system in this process learn from corrections made by a human expert?",
+    "type": "vague"
+  },
+  {
+    "id": "q_5ed2a50d96",
+    "text": "What are some key features or tools that can be integrated or utilized within a particular system or framework?",
+    "type": "vague"
+  },
+  {
+    "id": "q_383a8aaf59",
+    "text": "What challenges arise when trying to enhance the capabilities of a system based on its underlying limitations?",
+    "type": "vague"
+  },
+  {
+    "id": "q_70b5aaf252",
+    "text": "What are the key elements involved in creating a reliable and trustworthy approach to building certain systems?",
+    "type": "vague"
+  },
+  {
+    "id": "q_69a1ec6fc7",
+    "text": "What kind of challenges arise when technology becomes more proactive and autonomous?",
+    "type": "vague"
+  },
+  {
+    "id": "q_72336c9b25",
+    "text": "What does it mean for a product to be truly successful?",
+    "type": "vague"
+  },
+  {
+    "id": "q_8616e00b0d",
+    "text": "What steps are involved in figuring out how to accomplish a specific goal?",
+    "type": "vague"
+  },
+  {
+    "id": "q_c2b922c8fa",
+    "text": "What are some key considerations when deciding how to design the relationships between different components of a software system?",
+    "type": "vague"
+  },
+  {
+    "id": "q_4c389c06f5",
+    "text": "What kinds of issues can be quickly identified by monitoring certain system metrics?",
+    "type": "vague"
+  },
+  {
+    "id": "q_6777465222",
+    "text": "What happens to an agent's development before it's put into use?",
+    "type": "vague"
+  },
+  {
+    "id": "q_8f635fd2ba",
+    "text": "What are the key challenges associated with creating systems that people can rely on?",
+    "type": "vague"
+  },
+  {
+    "id": "q_9e21e15f48",
+    "text": "What kind of information can be obtained about a product?",
+    "type": "vague"
+  },
+  {
+    "id": "q_0a37e30b90",
+    "text": "What are some potential risks associated with relying on an AI-powered service to manage and interact with sensitive digital resources?",
+    "type": "vague"
+  },
+  {
+    "id": "q_280ebf90ea",
+    "text": "What are the limitations of how Large Language Models process and retain information?",
+    "type": "vague"
+  },
+  {
+    "id": "q_de6eaf8748",
+    "text": "What are the key factors to consider when integrating multiple systems to work together effectively?",
+    "type": "vague"
+  },
+  {
+    "id": "q_29804e667f",
+    "text": "What kinds of challenges arise when multiple entities interact with each other in a shared space?",
+    "type": "vague"
+  },
+  {
+    "id": "q_0cc2b77d9f",
+    "text": "What factors can affect the reliability of decisions made by advanced computer systems?",
+    "type": "vague"
+  }
+]

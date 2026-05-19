@@ -1,0 +1,50 @@
+{
+  "phase": 4,
+  "collection": "base",
+  "k": 5,
+  "description": "Query expansion lift on vague queries; regression check on keyword queries",
+  "vague_queries": {
+    "Hybrid RRF (no expansion)": {
+      "P@5": 0.0041,
+      "Recall@5": 0.0113,
+      "MRR": 0.0124,
+      "nDCG@5": 0.0143,
+      "queries_evaluated": 97,
+      "queries_skipped": 0,
+      "eval_latency_ms": 1479.8
+    },
+    "Hybrid RRF + Expansion": {
+      "P@5": 0.0041,
+      "Recall@5": 0.0113,
+      "MRR": 0.0155,
+      "nDCG@5": 0.0168,
+      "queries_evaluated": 97,
+      "queries_skipped": 0,
+      "eval_latency_ms": 183084.8
+    },
+    "ndcg_lift": 0.0025,
+    "exit_criteria_met": true
+  },
+  "keyword_queries": {
+    "Hybrid RRF (no expansion)": {
+      "P@5": 0.0086,
+      "Recall@5": 0.0107,
+      "MRR": 0.0211,
+      "nDCG@5": 0.0238,
+      "queries_evaluated": 140,
+      "queries_skipped": 0,
+      "eval_latency_ms": 1624.8
+    },
+    "Hybrid RRF + Expansion (suppressed)": {
+      "P@5": 0.0086,
+      "Recall@5": 0.0107,
+      "MRR": 0.0211,
+      "nDCG@5": 0.0238,
+      "queries_evaluated": 140,
+      "queries_skipped": 0,
+      "eval_latency_ms": 1459.4
+    },
+    "ndcg_delta": 0.0,
+    "no_regression": true
+  }
+}

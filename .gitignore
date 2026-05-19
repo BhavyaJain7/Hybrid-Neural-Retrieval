@@ -1,0 +1,95 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+.eggs/
+pip-wheel-metadata/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# --- Environment variables ---
+.env
+.env.local
+.env.*.local
+
+# --- Data (large files — never commit raw or processed data) ---
+data/raw/
+data/processed/
+data/indices/
+data/documents/
+data/qdrant/
+data/snapshots/
+data/collections/
+data/.tiktoken_cache/
+.pdf
+.json
+implementation.md
+
+# --- ML Artifacts (large binaries) ---
+artifacts/models/
+*.pkl
+*.pickle
+*.faiss
+*.meta
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# --- HuggingFace cache ---
+.cache/
+~/.cache/huggingface/
+
+# --- MLflow ---
+mlruns/
+mlartifacts/
+
+# --- Jupyter ---
+notebooks/.ipynb_checkpoints/
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Logs ---
+logs/
+*.log
+*.api.pid
+
+# --- Test & coverage ---
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+
+# --- Build / packaging ---
+*.so
+*.dylib
+*.dll
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# --- Windows-specific ---
+*.lnk
+ehthumbs.db
